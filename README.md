@@ -1,2 +1,2 @@
 # Computer-Vision
-My project
+My ITMO CV project
