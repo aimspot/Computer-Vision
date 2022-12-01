@@ -77,5 +77,34 @@ model_VGG, losses = train_model(model_VGG, loss_fn, optimizer_ft, exp_lr_schedul
 * Top-5 Accuracy: 1.00;
 * Время обучения: 202 минут 23 секунды.
 
+# MobileNet_V2
+О сети: VGG16 — модель сверточной нейронной сети, предложенная K. Simonyan и A. Zisserman из Оксфордского университета в статье “Very Deep Convolutional Networks for Large-Scale Image Recognition”. Модель достигает точности 92.7% — топ-5, при тестировании на ImageNet в задаче распознавания объектов на изображении. Этот датасет состоит из более чем 14 миллионов изображений, принадлежащих к 1000 классам.
+
+VGG16 — одна из самых знаменитых моделей, отправленных на соревнование ILSVRC-2014. Она является улучшенной версией AlexNet, в которой заменены большие фильтры (размера 11 и 5 в первом и втором сверточном слое, соответственно) на несколько фильтров размера 3х3, следующих один за другим. Сеть VGG16 обучалась на протяжении нескольких недель при использовании видеокарт NVIDIA TITAN BLACK.
+
+![The-proposed-MobileNetV2-network-architecture](https://user-images.githubusercontent.com/82668230/205063457-b1964d15-4f4b-40a5-9eb3-4f8c3c7bf92a.png)
+
+Параметры обучения:
+  ```
+num_features = 1280
+
+model_MOBILE.classifier = nn.Linear(num_features, 10)
+if use_gpu:
+    model_MOBILE = model_MOBILE.cuda()
+
+loss_fn = nn.CrossEntropyLoss()
+
+optimizer_ft = optim.Adam(model_MOBILE.parameters(), lr=1e-4)
+
+exp_lr_scheduler = lr_scheduler.StepLR(optimizer_ft, step_size=7, gamma=0.1)
+```
+  ```
+model_MOBILE, losses = train_model(model_MOBILE, loss_fn, optimizer_ft, exp_lr_scheduler, num_epochs=25)
+```
+Полученные метрики после 25 эпох дообучения:
+* Top-1 Accuracy: 0.87;
+* Top-5 Accuracy: 1.00;
+* Время обучения: 23 минут 5 секунд.
+
 
 
