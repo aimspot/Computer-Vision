@@ -43,6 +43,10 @@ exp_lr_scheduler = lr_scheduler.StepLR(optimizer_ft, step_size=7, gamma=0.1)
   ```
 model, losses = train_model(model, loss_fn, optimizer_ft, exp_lr_scheduler, num_epochs=25)
 ```
+Полученные метрики после 25 эпох дообучения:
+* Top-1 Accuracy: 0.81;
+* Top-5 Accuracy: 0.98;
+* Время обучения: 12 минут 23 секунды.
 
 
 
