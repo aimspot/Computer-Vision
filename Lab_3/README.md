@@ -105,5 +105,6 @@ model_MOBILE, losses = train_model(model_MOBILE, loss_fn, optimizer_ft, exp_lr_s
 * Время обучения: 23 минут 5 секунд.
 
 #Вывод
+
 Среди трёх моделей, которые были протестированы, наилучшие результаты показала модель MobileNet_V2.
 
