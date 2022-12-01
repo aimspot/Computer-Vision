@@ -20,3 +20,27 @@
 10. Tomatoes__Leaf mold.
 ![6](https://user-images.githubusercontent.com/82668230/205057629-c4a4c0f1-af1b-4e70-b334-0a6184a42a20.jpg)
 
+# AlexNet
+О сети:
+
+
+
+Параметры обучения:
+  ```
+num_features = 9216
+model.classifier = nn.Linear(num_features, 10)
+if use_gpu:
+    model = model.cuda()
+
+loss_fn = nn.CrossEntropyLoss()
+
+optimizer_ft = optim.Adam(model.parameters(), lr=1e-4)
+
+exp_lr_scheduler = lr_scheduler.StepLR(optimizer_ft, step_size=7, gamma=0.1)
+```
+  ```
+model, losses = train_model(model, loss_fn, optimizer_ft, exp_lr_scheduler, num_epochs=25)
+```
+
+
+
