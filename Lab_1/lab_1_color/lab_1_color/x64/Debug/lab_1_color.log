@@ -1,4 +1,4 @@
 ﻿  lab_1_color.cpp
-D:\Users\misha\Desktop\Univer\ITMO\CV\Lab_1\lab_1_color\lab_1_color\lab_1_color.cpp(51,11): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
-D:\Users\misha\Desktop\Univer\ITMO\CV\Lab_1\lab_1_color\lab_1_color\lab_1_color.cpp(54,19): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
-  lab_1_color.vcxproj -> D:\Users\misha\Desktop\Univer\ITMO\CV\Lab_1\lab_1_color\x64\Debug\lab_1_color.exe
+D:\Users\misha\Documents\GitHub\ITMO\Computer-Vision\Lab_1\lab_1_color\lab_1_color\lab_1_color.cpp(51,11): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+D:\Users\misha\Documents\GitHub\ITMO\Computer-Vision\Lab_1\lab_1_color\lab_1_color\lab_1_color.cpp(54,19): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+  lab_1_color.vcxproj -> D:\Users\misha\Documents\GitHub\ITMO\Computer-Vision\Lab_1\lab_1_color\x64\Debug\lab_1_color.exe
