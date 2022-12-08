@@ -107,4 +107,8 @@ model_MOBILE, losses = train_model(model_MOBILE, loss_fn, optimizer_ft, exp_lr_s
 # Вывод
 
 Среди трёх моделей, которые были протестированы, наилучшие результаты показала модель MobileNet_V2.
+Топ моделей по показателям (время обработки / нагрузка):
+1. mobileNetv2
+2.AlexNet
+3. VGG
 
