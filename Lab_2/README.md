@@ -23,16 +23,16 @@ Cv включает в себя несколько метрик по котор�
  
  |  Number | Example |   
 |:-:|:-:|
-|  1 | |
-|  2 | |
-|  3 | |
-|  4 | |
-|  5 | |
-|  6 | |
-|  7 | |
-|  8 | |
-|  9 | |
-|  10 | |
+|  1 | ![0](https://user-images.githubusercontent.com/82668230/206853680-d5d2805c-0644-4753-8e1f-b2e872ae459a.jpg)|
+|  2 | ![2](https://user-images.githubusercontent.com/82668230/206853691-9f05e4ef-d954-4554-9fd7-6a30e7902cc2.jpg)|
+|  3 | ![3](https://user-images.githubusercontent.com/82668230/206853700-9019c266-647c-4622-a83b-f4139183fef9.jpg)|
+|  4 | ![4](https://user-images.githubusercontent.com/82668230/206853707-6905c92b-8363-46f4-bb0d-729f84dfb196.jpg)|
+|  5 | ![6](https://user-images.githubusercontent.com/82668230/206853716-ae26662c-2b93-4345-bfb1-f8c31665e402.jpg)|
+|  6 | ![5](https://user-images.githubusercontent.com/82668230/206853725-37ba9b61-bf5d-4b32-8ceb-858ee200e0b4.jpg)|
+|  7 | ![1](https://user-images.githubusercontent.com/82668230/206853744-ff37ef65-1080-43cc-81b6-67ffe2eb80fb.jpg)|
+|  8 | ![8](https://user-images.githubusercontent.com/82668230/206853769-9c698120-d6a6-4403-8e5b-64bfd948c876.jpg)|
+|  9 | ![9](https://user-images.githubusercontent.com/82668230/206853780-ad16590c-24df-494a-9804-371ae3b0ecba.jpg)|
+|  10 | ![10](https://user-images.githubusercontent.com/82668230/206853794-aabc3c20-049b-43c6-9d47-8c16dd13a152.jpg)|
  
 
  
