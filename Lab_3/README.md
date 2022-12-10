@@ -48,6 +48,10 @@ model, losses = train_model(model, loss_fn, optimizer_ft, exp_lr_scheduler, num_
 * Top-5 Accuracy: 0.98;
 * Время обучения: 12 минут 23 секунды.
 
+Нагрузка и время обработки:
+
+![1](https://user-images.githubusercontent.com/82668230/206854091-154ccd64-4d4a-4451-a4db-93e2d4acdc98.jpg)
+
 # VGG-16
 О сети: VGG16 — модель сверточной нейронной сети, предложенная K. Simonyan и A. Zisserman из Оксфордского университета в статье “Very Deep Convolutional Networks for Large-Scale Image Recognition”. Модель достигает точности 92.7% — топ-5, при тестировании на ImageNet в задаче распознавания объектов на изображении. Этот датасет состоит из более чем 14 миллионов изображений, принадлежащих к 1000 классам.
 
@@ -77,6 +81,10 @@ model_VGG, losses = train_model(model_VGG, loss_fn, optimizer_ft, exp_lr_schedul
 * Top-5 Accuracy: 1.00;
 * Время обучения: 202 минут 23 секунды.
 
+Нагрузка и время обработки:
+
+![2](https://user-images.githubusercontent.com/82668230/206854129-d3226318-7048-4078-a2ab-4d9415bde900.jpg)
+
 # MobileNet_V2
 О сети: Появление MobileNet уже само по себе сделало революцию в компьютерном зрении на мобильных платформах, однако несколько дней назад Google выложил в открытый доступ MobileNetV2 — следующее поколение нейросетей этого семейства, которое позволяет достигать примерно такой же точности распознавания при ещё большей скорости работы.
 
@@ -104,11 +112,12 @@ model_MOBILE, losses = train_model(model_MOBILE, loss_fn, optimizer_ft, exp_lr_s
 * Top-5 Accuracy: 1.00;
 * Время обучения: 23 минут 5 секунд.
 
+Нагрузка и время обработки:
+
+!![3](https://user-images.githubusercontent.com/82668230/206854154-e4bcb625-60f4-4c1a-97ce-795bc2bc75fc.jpg)
+
 # Вывод
 
 Среди трёх моделей, которые были протестированы, наилучшие результаты показала модель MobileNet_V2.
-Топ моделей по показателям (время обработки / нагрузка):
-1. mobileNetv2
-2.AlexNet
-3. VGG
+
 
