@@ -114,7 +114,7 @@ model_MOBILE, losses = train_model(model_MOBILE, loss_fn, optimizer_ft, exp_lr_s
 
 Нагрузка и время обработки:
 
-!![3](https://user-images.githubusercontent.com/82668230/206854154-e4bcb625-60f4-4c1a-97ce-795bc2bc75fc.jpg)
+![3](https://user-images.githubusercontent.com/82668230/206854154-e4bcb625-60f4-4c1a-97ce-795bc2bc75fc.jpg)
 
 # Вывод
 
