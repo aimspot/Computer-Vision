@@ -42,19 +42,21 @@ Cv включает в себя несколько метрик по котор�
  
 |  Number | Example |   
 |:-:|:-:|
-|  1 |   |
+|  1 |  ![1](https://user-images.githubusercontent.com/82668230/206852819-f83f7a4e-e7cd-40a1-8a34-589ed427133a.jpg)|
 |  2 |   |
-|  3 | ![image](https://user-images.githubusercontent.com/82668230/206448905-5675403e-97c4-43e9-a4af-b67b8556f610.png)  |
+|  3 |   |
+|  4 |   |
+|  5 |   |
+|  6 |   |
+|  7 |   |
+|  8 |   |
+|  9 |   |
+|  10 |   |
  
- 1.
- 2. 
- 3. 
- 4.
- 5.
- 6.
- 7.
- 8.
- 9. 
+ 
+ 
+  ![image](https://user-images.githubusercontent.com/82668230/206448905-5675403e-97c4-43e9-a4af-b67b8556f610.png) 
+
  
  
  # Вывод
