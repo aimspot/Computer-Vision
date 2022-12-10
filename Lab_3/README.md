@@ -79,7 +79,7 @@ model_VGG, losses = train_model(model_VGG, loss_fn, optimizer_ft, exp_lr_schedul
 Полученные метрики после 25 эпох дообучения:
 * Top-1 Accuracy: 0.861;
 * Top-5 Accuracy: 1.00;
-* Время обучения: 202 минут 23 секунды.
+* Время обучения: 202 минуты 23 секунды.
 
 Нагрузка и время обработки:
 
@@ -110,7 +110,7 @@ model_MOBILE, losses = train_model(model_MOBILE, loss_fn, optimizer_ft, exp_lr_s
 Полученные метрики после 25 эпох дообучения:
 * Top-1 Accuracy: 0.87;
 * Top-5 Accuracy: 1.00;
-* Время обучения: 23 минут 5 секунд.
+* Время обучения: 23 минуты 5 секунд.
 
 Нагрузка и время обработки:
 
