@@ -45,5 +45,24 @@ detector.findHands(frame)
 
 ![image](https://user-images.githubusercontent.com/82668230/209149159-06b5fac6-c1f1-4502-a04b-dc3b96a103d4.png)
 
+## Hotkeys
+![image](https://user-images.githubusercontent.com/82668230/209149491-847a03b7-d71b-4398-bdf9-2c12334f5562.png)
+
+1. Нажатие (совмещение точек 8 и 12)
+2. Удаление (совмещение точек 4 и 13)
+3. Enter (совмещение 4 и 20)
+4. Caps Lock (совмещение 4 и 16)
+
+## Ввод текста 
+Для ввода текста используется библетека pynput.keyboard
+1. Создаётся объект 
+```
+keybordCon = Controller()
+```
+2. При нажатии на виртуальную кнопку считывается текст, хранящейся в объекте и передаётся в функцию press
+```
+keybordCon.press(button.text)
+```
+3. Проиходить нажатие выбранной кнопки.
 
 
