@@ -4,6 +4,8 @@
 * CVzone
 * Mediapipe
 * Pynput.keyboard
+
+
 Данные библеотеки позволяют нам обнаружать руку и ключевые точки на ней.
 ### Функция findDistance:
 ```
@@ -27,7 +29,21 @@ detector = HandDetector(detectionCon=0.5)
 detector.findHands(frame)
 ```
 Получение контрольных точек и bounding box руки.
-
-
 ## Принцип работы можно представить следующим образом:
 ![image](https://user-images.githubusercontent.com/82668230/209147364-30d46a8e-c444-444c-9c89-b8aab8ab2fe2.png)
+## Клавиатура
+* Используется английский алфавит и знаки препинания в 2 регистрах
+* Каждая клавиша - объект класса Key() с атрибутами (position,  text, weight, height, color)
+
+![image](https://user-images.githubusercontent.com/82668230/209149086-70ae26b8-16a8-4877-8583-0524eae77a5f.png)
+
+
+## CVzone и mediapipe
+* Получаем ключевые точки руки
+* На каждой итерации измеряем расстояние между точками, отвечающими за команды
+* Если расстояние меньше заданного порога, выполняем соответствующую операцию
+
+![image](https://user-images.githubusercontent.com/82668230/209149159-06b5fac6-c1f1-4502-a04b-dc3b96a103d4.png)
+
+
+
